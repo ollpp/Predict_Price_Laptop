@@ -34,7 +34,7 @@ while len(review) < 20:
     core = driver.find_elements_by_xpath('//*[@id="__next"]/div/div[2]/div[2]/div[3]/div[1]/ul/div/div/li/div/div[2]/div[4]/div[1]/a[7]')
     code = driver.find_elements_by_xpath('//*[@id="__next"]/div/div[2]/div[2]/div[3]/div[1]/ul/div/div/li/div/div[2]/div[4]/div[1]/a[8]')
     size = driver.find_elements_by_xpath('//*[@id="__next"]/div/div[2]/div[2]/div[3]/div[1]/ul/div/div/li/div/div[2]/div[4]/div[1]/a[9]')
-
+ 
 
 
     for i in name:
