@@ -101,6 +101,3 @@ collection.insert_many(result_list)
 
 print(len(result_list))
 print("종료")
-
-while(True):
-    pass
