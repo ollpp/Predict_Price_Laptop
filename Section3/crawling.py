@@ -87,7 +87,7 @@ HOST = 'cluster0.biivj.mongodb.net'
 USER = 'ollpp'
 PASSWORD = 'Qkrtjrghks12!'
 DATABASE_NAME = 'Section3'
-COLLECTION_NAME = "naver_db_2022_4_19_15_8"
+COLLECTION_NAME = f"naver_db_{tm.tm_year}_{tm.tm_mon}_{tm.tm_mday}_{tm.tm_hour}_{tm.tm_sec}"
 MONGO_URI = f"mongodb+srv://ollpp:Qkrtjrghks12!@cluster0.biivj.mongodb.net/Section3?retryWrites=true&w=majority"
 
 # client 설정
