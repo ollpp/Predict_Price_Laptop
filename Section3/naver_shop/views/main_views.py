@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, request, url_for
+from flask import Blueprint, render_template, request, url_for, redirect
 import pandas as pd
 import pickle
 import os.path
@@ -24,7 +24,7 @@ def get_file(filename):  # pragma: no cover
 
 @bp.route('/')
 def init_dipl():
-    return 'first!'
+    return redirect('/main')
 
 @bp.route('/modeling', methods=('GET', 'POST'))
 def index():
