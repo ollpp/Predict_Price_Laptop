@@ -1,4 +1,5 @@
 # Predict_Price_Laptop
+참고 링크(notion 포트폴리오) : https://www.notion.so/ollpp/3311e5ddf4154003954d4a28e368768c
 
 </br>
 </br>
